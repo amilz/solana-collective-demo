@@ -1,0 +1,41 @@
+{
+  "image": "0.jpg",
+  "name": "AI or AMilz? no. 1",
+  "description": "Solana Collective Demo Day Airdrop",
+  "symbol": "SOLC",
+  "attributes": [
+    {
+      "trait_type": "id",
+      "value": "1"
+    },
+    {
+      "trait_type": "tag",
+      "value": "amilz"
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "collective"
+    },
+    {
+      "trait_type": "backpack",
+      "value": "drake"
+    },
+    {
+      "trait_type": "halo",
+      "value": "true"
+    },
+    {
+      "trait_type": "screen",
+      "value": "three"
+    }   
+  ],
+  "properties": {
+    "category": "image",
+    "files": [
+      {
+        "uri": "0.jpg",
+        "type": "image/jpg"
+      }
+    ]
+  }
+}

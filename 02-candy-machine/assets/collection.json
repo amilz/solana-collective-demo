@@ -1,0 +1,27 @@
+{
+  "image": "collection.jpg",
+  "name": "AI or AMilz?",
+  "description": "Solana Collective Demo Day Airdrop",
+  "symbol": "SOLC",
+  "attributes": [
+    {
+      "trait_type": "collection",
+      "value": "yep"
+    }
+  ],
+  "seller_fee_basis_points": 0,
+  "properties": {
+    "creators": [
+      {
+        "address": "MiLZAcWZgMYvFnZqzJ6XRj4h5r47bgX64Vt5gRnBvqv",
+        "share": 100
+      }
+    ],
+    "files": [
+      {
+        "uri": "collection.jpg",
+        "type": "image/jpg"
+      }
+    ]
+  }
+}
