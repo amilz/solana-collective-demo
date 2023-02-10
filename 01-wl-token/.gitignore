@@ -40,3 +40,5 @@ yarn-error.log*
 
 # logs
 *.log
+
+yarn.lock
