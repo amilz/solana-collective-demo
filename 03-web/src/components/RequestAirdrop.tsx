@@ -19,13 +19,13 @@ export const RequestAirdrop: FC = () => {
         }
 
         let METAPLEX = Metaplex.make(connection).use(walletAdapterIdentity(walletAdapter));
-        let candyMachine = await METAPLEX.candyMachines().findByAddress({ address: new PublicKey('EMPapSGD9uPkLoa86wjwtWuawAsoNr3bbyCFT7W5V1Mi') })
+        let candyMachine = await METAPLEX.candyMachines().findByAddress({ address: new PublicKey('AEdi4eFKWnKJngQG6QUe5fu7jXfycPsN8SsnKZcQiMvp') })
 
 
         try {
             const txBuilder = await METAPLEX.candyMachines().builders().mint({
                 candyMachine,
-                collectionUpdateAuthority: new PublicKey('scNkbXvJQ3L83JmvYfVmuLaq9UidaiuYzQaHD41KXt5')
+                collectionUpdateAuthority: new PublicKey('BoNKy7FoT5xdh6c1z4BuSY6LncUnrVPzs9oepibesE4w')
             })
             const blockhash = await METAPLEX.rpc().getLatestBlockhash();
 
